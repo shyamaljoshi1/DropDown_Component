@@ -1,0 +1,14 @@
+.main__container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #569c56;
+    flex-direction: column;
+    span{
+        font-weight: 600;
+        color: #41644A;
+    }
+}

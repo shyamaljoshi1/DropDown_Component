@@ -1,0 +1,35 @@
+.custom-dropdown{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    height: 100px;
+    
+    .dropdown-header{
+        background-color: #AAC8A7;
+        max-width: 100000px;
+        padding: 8px 10px;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .dropdown-options{
+        text-decoration: none !important;
+        padding:8px;
+        .suboptions{
+            font-size: 16px;
+            letter-spacing: 2px;
+            margin: 1.3px 0px;
+            text-align: center;
+            padding: 2px;
+            border-radius: 4px;
+        }
+        .suboptions:hover{
+            background-color: #C9DBB2;
+            cursor: pointer;
+            
+            backface-visibility: hidden;
+            transition: all .2s ease-in-out;
+            
+        }
+    }
+    
+}
